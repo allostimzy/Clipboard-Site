@@ -69,6 +69,7 @@ body {
     border-radius: 30px;
     font-size: 18px;
     border: 2px solid #38A897;
+    cursor: pointer;
 }
 
 .macBtn:hover {
@@ -80,6 +81,7 @@ body {
     border-radius: 30px;
     font-size: 18px;
     border: 2px solid #6173FF;
+    cursor: pointer;
 }
 
 .secondSection {
@@ -232,6 +234,10 @@ body {
     margin-left: 1rem;
     margin-right: 2rem;
 }
+.eighthSection img:hover {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
 
 .ninthSection {
     text-align: center;
@@ -258,28 +264,91 @@ body {
     background-color: #f0f0f0;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
+
 }
 
-.below .logoTwo img {
-    width: 30px;
+.logoTwo img {
+    width: 50px;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 
 .Menu{
-    border: 1px solid red;
-    width: 40rem;
+    width: 46rem;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
-.Menu li {
-    margin-right: 7rem;
+
+.menuOne li {
+    margin-right: 9rem;
     list-style-type: none;
     display: inline;
-    line-height: 50px;
+    line-height: 45px;
+    cursor: pointer;
+    color: #4C545D;
+    text-align: left;
 }
+
+.menuOne li:hover {
+   
+    cursor: pointer;
+    color: #38A897;
+    font-weight: bold;
+}
+.menuTwo li {
+    margin-right: 5.9rem;
+    list-style-type: none;
+    display: inline;
+    line-height: 45px;
+    cursor: pointer;
+    color: #4C545D;
+    text-align: left;
+}
+
+.menuTwo li:hover {
+    
+    cursor: pointer;
+    color: #38A897;
+    font-weight: bold;
+}
+
+
+.socials {
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.socials img {
+    width: 28px;
+    height: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.socials img:hover {
+    width: 28px;
+    height: 27px;
+    color: #38A897;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    filter: invert(60%) sepia(7%) saturate(2758%) hue-rotate(121deg) brightness(92%) contrast(97%);
+}
+
+
 
 
 
