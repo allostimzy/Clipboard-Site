@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body {
+    font-size: 18px;
+}
+
+.firstSection {
+    background-image: url(./images/bg-header-desktop.png);
+    text-align: center;
+    padding-top: 70px;
+    height: 15rem;
+    padding-bottom: 30px; 
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.firstSection h1 {
+    margin-top: 40px;
+    font-size: 41px;
+    color: #4C545D;
+}
+
+.firstSection p {
+    margin-bottom: 20px;
+    color: #9FABB2;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 38rem;
+    margin-left: 23rem;
+    line-height: 1.6;
+}
+
+
+.iosBtn {
+    background-color: #38A897;
+    color: white;
+    margin-right: 10px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+}
+.macBtn {
+    background-color: #6173FF;
+    color: white;
+    margin-left: 10px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+}
+
+.iosBtn:hover {
+    background-color: white;
+    color: #38A897;
+    margin-right: 10px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 2px solid #38A897;
+}
+
+.macBtn:hover {
+    background-color: white;
+    color: #6173FF;
+    margin-left: 10px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 2px solid #6173FF;
+}
+
+.secondSection {
+    margin-top: 10rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.secondSection h2 {
+    color: #4C545D;
+    padding: 20px;
+    margin-top: 17rem;
+    font-size: 32px;
+}
+
+.secondSection p {
+    margin-bottom: 20px;
+    color: #9FABB2;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 40rem;
+    margin-left: 23rem;
+    line-height: 1.6;
+}
+
+.thirdSection {
+    display: flex;
+}
+
+.image {
+    position: relative;
+    left: -29px;
+    
+}
+.TextSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    padding-top: 5rem;
+    
+}
+.firstText {
+    width: 24rem;
+}
+.secondText {
+    margin-top: 60px;
+    width: 24rem;
+}
+.thirdText {
+    margin-top: 60px;
+    width: 24rem;
+}
+.TextSection p {
+    margin-top: 15px;
+    color: #9FABB2;
+}
+.TextSection h3 {
+    color: #4C545D;
+}
+
+.fourthSection {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.fourthSection h2 {
+    color: #4C545D;
+    padding: 20px;
+    margin-top: 4rem;
+    font-size: 32px;
+}
+
+.fourthSection p {
+    margin-bottom: 20px;
+    color: #9FABB2;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 40rem;
+    margin-left: 23rem;
+    line-height: 1.6;
+}
+.fifthSection{
+    text-align: center;
+}
+.sixthSection{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.sixthSection h2 {
+    color: #4C545D;
+    padding: 20px;
+    margin-top: 4rem;
+    font-size: 32px;
+}
+
+.sixthSection p {
+    margin-bottom: 20px;
+    color: #9FABB2;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 40rem;
+    margin-left: 22.5rem;
+    line-height: 1.6;
+}
+
+.seventhSection {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+.one {
+    width: 25rem;
+    text-align: center;
+}
+.two {
+    width: 25rem;
+    text-align: center;
+}
+.three {
+    width: 25rem;
+    text-align: center;
+}
+.seventhSection h3 {
+    color: #4C545D;
+    padding-top: 20px;
+}
+.two img {
+    padding-bottom: 10px;
+}
+.three img {
+    padding-bottom: 10px;
+}
+.seventhSection p {
+    color: #9FABB2;
+    padding-top: 20px;
+}
+
+.eighthSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+}
+.eighthSection img {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.ninthSection {
+    text-align: center;
+    padding-bottom: 7rem; 
+}
+
+.ninthSection h2 {
+    color: #4C545D;
+    font-size: 32px;
+    padding-bottom: 1.3rem;
+}
+
+.ninthSection p {
+    color: #9FABB2;
+    padding-bottom: 3rem;
+    font-size: 18px;
+    width: 42rem;
+    margin-left: 21.5rem;
+    line-height: 1.6;
+    display: flex;
+    text-align: center;
+}
+.below {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.below .logoTwo img {
+    width: 30px;
+}
+
+
+
+.Menu{
+    border: 1px solid red;
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Menu li {
+    margin-right: 7rem;
+    list-style-type: none;
+    display: inline;
+    line-height: 50px;
+}
+
+
+
+
+
